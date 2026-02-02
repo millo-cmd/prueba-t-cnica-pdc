@@ -1,0 +1,26 @@
+.containerGeografiaGeneral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    max-width: 100%;
+    font-family: "Google Sans", sans-serif;
+    margin: auto 4rem;
+    box-sizing: border-box;
+}
+
+.containerTable {
+    overflow-x: auto;
+    width: 100%;
+    max-width: 900px;
+    height: 100%;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.filtrosGeografia {
+    margin: 20px 0px;
+    display: flex;
+    gap: 15px;
+}

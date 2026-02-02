@@ -1,0 +1,134 @@
+input {
+  padding: 8px 12px;
+  width: 200px;
+  border: solid 2px #9494ed;
+  border-radius: 15px;
+}
+
+select {
+  padding: 8px 12px;
+  width: 200px;
+  border: solid 2px #9494ed;
+  border-radius: 15px;
+}
+
+.botonActivo {
+  background: #9494ed;
+  border: none;
+  color: #fff;
+  padding: 10px 8px;
+  border-radius: 15px;
+  width: 150px;
+}
+
+table tr {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+table thead {
+  background-color: #9494ed;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 110%;
+}
+
+table th {
+  width: 200px;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+table td {
+  width: 200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.accionesColaborador {
+  display: flex;
+  gap: 10px;
+}
+
+.containerModalGeneral {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerModal {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.containerModalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.containerModalBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+}
+
+.containerModalFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerModalHeader h2 {
+  margin: 0;
+  font-family: "Google Sans", sans-serif;
+  font-size: 15px;
+  color: #9494ed;
+}
+
+.botonCerrar {
+  font-size: 14px;
+  font-family: "Google Sans", sans-serif;
+  font-weight: 600;
+  color: #9494ed;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #9494ed;
+  font-family: "Google Sans", sans-serif;
+  font-weight: 500;
+}
